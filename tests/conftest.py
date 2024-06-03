@@ -1,6 +1,5 @@
 import pytest
 
-
 @pytest.fixture
 def operation_data_with_from():
     return {
@@ -17,7 +16,7 @@ def operation_data_with_from():
     "description": "Перевод организации",
     "from": "Maestro 1596837868705199",
     "to": "Счет 64686473678894779589"
-  },
+  }
 
 @pytest.fixture
 def operation_data_without_from(operation_data_with_from):
